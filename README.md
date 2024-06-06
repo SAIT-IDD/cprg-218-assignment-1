@@ -1,6 +1,8 @@
 ## Instructions for Responsive CSS In class Lab.
 
-### Create a new css file inside the styles folder and link the stylesheet to the index.html document.
+### Download this repository as a zip file. 
+
+### Create a new css file inside the styles folder and link the new stylesheet to the index.html document.
  
 ### Make the page responsive using the new file created.
 - Make the section with a class called 'container' a flex box that is centered horizontally.
