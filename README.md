@@ -1,6 +1,8 @@
 ## Instructions for Responsive CSS In class Lab.
+
+### Create a new css file inside the styles folder and link the stylesheet to the index.html document.
  
-###
+### Make the page responsive using the new file created.
 - Make the section with a class called 'container' a flex box that is centered horizontally.
  
 - Make the `<ul>` box with `<ul class="card-container">` a grid with 1 column and horizontally centered.
@@ -10,3 +12,6 @@
   - the monkey card spans 2 columns with a width of 100%.
  
 - <b>Desktop:</b> Add a media query for devices with screen widths greater than 1199px, the `card-container` should display a three-column grid layout with a 12px gap.
+- Ensure you test your changes.
+
+- When finsihed, zip and attach updated code folder to your brightspace shell
