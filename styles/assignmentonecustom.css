@@ -1,0 +1,33 @@
+ul{
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    display: grid;
+    justify-content: center;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .card-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    #monkey {
+        grid-column: span 2;
+        width: 100%
+    }
+}
+@media (min-width: 1199px){
+    .card-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 12px;
+    }
+}
